@@ -1,0 +1,53 @@
+record for bash orders
+
+cd /mnt/d/Codes/C++/Operating_System/Lab2_mutex
+
+g++ barber.cpp -o barber
+g++ reader_writer.cpp -o reader_writer
+
+./barber
+./reader_writer
+
+
+Note: For the "mainThread" and "sharedVar" programs, the -lpthread flag is used to link the pthread library.
+
+5 1 1 3
+1 7
+2 3
+3 2
+4 4
+5 10
+
+customer 3: there are 0 customers in front waiting for a haircut 
+customer 2: there are 0 customers in front waiting for a haircut 
+customer 4: no more empty chairs, customer leaves
+customer 3 finished haircut
+customer 1: there are 0 customers in front waiting for a haircut 
+customer 2 finished haircut 
+customer 5: there are 0 customers in front waiting for a haircut 
+customer 1 finished haircut 
+customer 5 finished haircut
+
+
+1 5
+1 R 3 5
+2 W 4 5
+3 R 5 2
+4 R 6 5
+5 W 9 3
+
+reader 1 waiting to read 
+reader 1 starts to read 
+writer 2 waiting to write 
+reader 3 waiting to read 
+reader 3 starts to read 
+reader 4 waiting to read 
+reader 4 starts to read 
+reader 3 ends reading 
+reader 1 ends reading 
+writer 5 waiting to write 
+reader 4 ends reading 
+writer 2 starts to write 
+writer 2 ends writing 
+writer 5 starts to write 
+writer 5 ends writing

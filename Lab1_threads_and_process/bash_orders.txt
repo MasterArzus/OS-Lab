@@ -1,0 +1,26 @@
+record for bash orders
+
+cd /mnt/d/Codes/C++/Operating_System/Lab2_mutex
+
+g++ barber.cpp -o barber
+g++ reader_writer.cpp -o reader_writer_io
+
+./barber_io
+
+5 1 1 3
+1 7
+2 3
+3 2
+4 4
+5 10
+
+
+./reader_writer_io
+1 5
+1 R 3 5
+2 W 4 5
+3 R 5 2
+4 R 6 5
+5 W 9 3
+
+Note: For the "mainThread" and "sharedVar" programs, the -lpthread flag is used to link the pthread library.

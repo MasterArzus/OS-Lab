@@ -1,0 +1,10 @@
+record for bash orders
+
+cd /mnt/d/Codes/C++/Operating_System/Lab4_shell
+
+g++ myshell.cpp -o myshell
+
+./myshell
+./myfind /mnt/d/¥Û—ß -name U≈Ã.pdf
+
+Note: For the "mainThread" and "sharedVar" programs, the -lpthread flag is used to link the pthread library.

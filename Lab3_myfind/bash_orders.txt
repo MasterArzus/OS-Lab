@@ -1,0 +1,14 @@
+record for bash orders
+
+cd /mnt/d/Codes/C++/Operating_System/Lab3_myfind
+
+g++ myfind_io.cpp -o myfind_io
+g++ myfind.cpp -o myfind
+g++ myfind.c -o myfind
+./myfind
+./myfind /mnt/d/Codes/C++/Operating_System/Lab3_myfind -name myfind
+./myfind_io /mnt/d/Codes/C++/Operating_System/Lab3_myfind -mtime 2
+./myfind /mnt/d/Codes/C++/Operating_System/Lab3_myfind -ctime 2
+./myfind /mnt/d/ด๓ัง -ctime 2
+
+Note: For the "mainThread" and "sharedVar" programs, the -lpthread flag is used to link the pthread library.
